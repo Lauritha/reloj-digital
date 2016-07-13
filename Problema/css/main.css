@@ -1,0 +1,41 @@
+body{
+	text-align: center;
+	font-family: Helvetica;
+}
+.back{
+	background-image: url(../images/grandes-ciudades-3809.jpg);
+	background-repeat: no-repeat;
+	background-size: 115%;
+	background-position: 0px -125px;
+}
+table {
+    font-size: 80px;
+    font-weight: 800;
+    color: gainsboro;
+}
+.contentClock{
+	background-color: rgba(0, 0, 0, 0.5);
+	margin-top: 110px;
+	width: 35%;
+	padding: 10px;
+	margin-left: 350px;
+}
+h3{
+	margin-top: 20px;
+	color: #ECEAEA;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+button{
+	margin-top: 60px;
+	font-size: 30px;
+	margin-bottom: 150px;
+}
+.options{
+	background-color: rgba(255, 253, 255, 0.3);
+	text-align: left;
+}
+input{
+	display: inline-block;
+}

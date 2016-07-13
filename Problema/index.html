@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  	<title>Reloj Digital</title>
+	  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<div class="container-fluid back">
+			<div class="container content">
+				<div class="row backClock">
+					<div class="col-md-12 col-sm-6 col-xs-6">
+						<div class="contentClock">
+							<table id="reloj" border='0'>
+								<tr>
+									<td>
+										<div id='hora'></div>
+									</td>
+									<td>
+										<div>:</div>
+									</td>
+									<td>
+										<div id='minuto'></div>
+									</td>
+									<td>
+										<div>:</div>
+									</td>
+									<td>
+										<div id='segundo'></div>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-sm-6 col-xs-6">
+					<h3>Para ver la hora de otros países da click aquí:</h3>
+					<button><i class="fa fa-clock-o" aria-hidden="true"></i></button>
+						<form action="" method="get">
+							<input type="checkbox" name="hour" value="chicago">
+								Chicago
+							<input type="checkbox" name="hour" value="sao">
+								Sao Paulo
+							<input type="checkbox" name="hour" value="mexico">
+								México D.F.
+							<input type="checkbox" name="hour" value="caracas">
+								Caracas
+							<input type="checkbox" name="hour" value="brasilia">
+								Brasilia
+							<input type="checkbox" name="hour" value="quito">
+								Quito
+							<input type="checkbox" name="hour" value="guayaquil">
+								Guayaquil
+							<input type="checkbox" name="hour" value="santa">
+								Santa Marta
+							<input type="checkbox" name="hour" value="bogota">
+								Bogotá
+						</form>
+				</div>
+			</div>
+		</div>
+		<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.2.min.js"></script>
+		<script src="js/smoothscrolling.jquery.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
